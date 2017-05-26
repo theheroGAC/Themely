@@ -35,7 +35,7 @@ wstring i18n(const string& token, ...){
 		case CFG_LANGUAGE_DE:
 			langMap = GERMAN;
 			break;
-			case CFG_LANGUAGE_IT:
+		case CFG_LANGUAGE_IT:
 			langMap = ITALIAN;
 			break;
 		default:
