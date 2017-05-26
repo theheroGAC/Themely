@@ -6,6 +6,7 @@
 #include "i18n/english.cpp"
 #include "i18n/french.cpp"
 #include "i18n/german.cpp"
+#include "i18n/italian.cpp"
 
 u8 lang = 1;
 
@@ -33,6 +34,9 @@ wstring i18n(const string& token, ...){
 			break;
 		case CFG_LANGUAGE_DE:
 			langMap = GERMAN;
+			break;
+			case CFG_LANGUAGE_IT:
+			langMap = ITALIAN;
 			break;
 		default:
 			langMap = ENGLISH;
